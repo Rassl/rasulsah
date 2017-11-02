@@ -1,0 +1,66 @@
+header
+  background: url(../img/hero-bg.jpg) center center
+  background-size: cover
+  background-attachment: fixed
+  padding-bottom: 50px
+
+  .logo
+    +size(50px)
+    background: #999
+    float: left
+    margin: 10px 0 0 30px
+
+  nav
+    float: right
+    padding: 30px 30px 0 0
+    a
+      display: inline-block
+      margin-left: 20px
+
+      color: rgba(0,0,0, 0.7)
+      @extend %small-bold
+
+      &:hover
+        color: rgba(0,0,0, 1)
+
+  h1
+    text-align: center
+    font:
+      size: 72px
+      weight: 700
+    color: #fff
+    text-transform: uppercase
+    letter-spacing: 0.05em
+    margin-bottom: 20px
+    clear: both
+    padding-top: 100px
+
+    span 
+      display: inline-block
+      padding: 0.2em 0.5em
+      border: 10px solid white
+
+  .kicker
+    text-align: center
+    font:
+      weight: 700
+    text-transform: uppercase
+    color: #fff
+    line-height: 1
+
+@media (max-width: 640px)
+  header
+ 
+    .logo
+      float: none
+      margin: 0px auto 0px
+
+    nav
+      float: none
+      text-align: center
+      margin: 0px auto 0px 
+
+    h1
+      padding-top: 0px
+
+

@@ -596,22 +596,15 @@ fieldset {
 @media screen and (max-width: 480px) {
   h3 {
     padding: 50px 0 50px; } }
+
 section:nth-child(odd) {
   position: relative;
-  background: url(./img/bg-wall.jpg) center;
-  background-attachment: fixed;
-  background-size: cover;
   padding-bottom: 100px; }
   section:nth-child(odd) h3 {
     color: #d7ae5c; 
     font-size: 20px;
   }
 
-  section:nth-child(5) {
-  background: #f2f2f2;
-  background-attachment: fixed;
-  background-size: cover;
-  padding-bottom: 100px; }
 
 .panorama {
   height: 100vh;
@@ -620,6 +613,11 @@ section:nth-child(odd) {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 0 -250px;
+}
+.section-work {
+    background: url(./img/bg-wall.jpg) center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .section-work__overlay {

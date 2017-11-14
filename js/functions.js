@@ -23,9 +23,10 @@ $(window).scroll(function() {
 
 
 
-        $('header h1').css({
-            'transform':'translate('+wSroll/20+'%,0px)' 
-        });
+        // $('header h1').css({
+        //     'transform':'translateY('+wSroll/20+'%,0px)'
+        // });
+
         if(wSroll<300){
             $('.myPicture').css({
                 'transform':'translate(0px, -'+ wSroll/3+'%)' 
